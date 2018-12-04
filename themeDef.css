@@ -1,0 +1,172 @@
+@media(min-width:768px)
+{
+
+}
+
+@media(min-width:992px)
+{
+	#logo
+	{
+		width: 1280px;
+		height: 357px;
+		display: block;
+		margin: 0px auto;
+	}
+
+	#tagline{
+		font-style: italic;
+		font-size: 90px;
+		font-family: Verdana;
+		text-align: center;
+		color: white;
+	}
+
+	#screenshot {
+		width: 100px;
+		height: 800px;
+	}
+
+	#carousel{
+		margin-left: 250px;
+		margin-right: 250px;
+		width: 50%;
+		height: 100%;
+		position:relative;
+
+	}
+
+	body{
+		background-image: url(images/backgroundedit2.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+
+	#textboxContainer
+	{
+		background-color: white;
+		position: relative;
+		margin: 80px;
+		overflow: hidden;
+		height: 100%;
+	}
+
+	article
+	{
+		font-family: Verdana;
+		background-color:white;
+		margin-left: 100px;
+		margin-right: 100px;
+		padding: 25px;
+		min-height: 500px;
+	}
+
+	.wrapper
+	{
+		display: flex;
+		width: 100%;
+	}
+}
+
+@media(min-width:1200px)
+{
+	#logo
+	{
+		width: 1280px;
+		height: 357px;
+		display: block;
+		margin: 0px auto;
+	}
+
+	#tagline{
+		font-style: italic;
+		font-size: 90px;
+		font-family: Verdana;
+		text-align: center;
+		color: white;
+	}
+
+	#carousel{
+		margin-left: 250px;
+		margin-right: 250px;
+		width: auto;
+		height: 100%;
+		position:relative;
+
+	}
+
+	body{
+		background-image: url(images/backgroundedit2.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+
+	.textboxContainer
+	{
+		color:white;
+		font-family: Verdana;
+		text-align: center;
+		width: 67%;
+		margin-left: 16%;
+		font-size: 25px;
+		margin-bottom: 0px;
+	}
+
+	.copyright{
+		color: white;
+		margin: 0;
+	}
+
+	article
+	{
+		font-family: Verdana;
+		background-color:white;
+		padding: 25px;
+		min-height: 500px;
+		position: fixed;
+
+	}
+
+	main {
+		margin-left: 300px;
+		margin-right: 200px;
+	}
+
+	.wrapper
+	{
+		display: flex;
+		width: 100%;
+	}
+
+
+	.thanksImage{
+			display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    width: 50%;
+	}
+
+
+	.downloadSpeech{
+		color: white;
+		font-size: 25px;
+		margin: 10px;
+		align-self: center;
+		max-width: 50%;
+	}
+
+	#gamedownload
+	{
+		font-size: 25px;
+		left: 10%;
+		position: relative;
+		overflow: hidden;
+		transform: translateX(+40%);
+		color: white;
+		padding: 25px;
+		background-color: green;
+		bottom: 50%;
+	}
+
+}
