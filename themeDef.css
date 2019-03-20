@@ -7,15 +7,15 @@
 {
 	#logo
 	{
-		width: 1280px;
-		height: 357px;
+		width: 850px;
+		height: 257px;
 		display: block;
 		margin: 0px auto;
 	}
 
 	#tagline{
 		font-style: italic;
-		font-size: 90px;
+		font-size: 10px;
 		font-family: Verdana;
 		text-align: center;
 		color: white;
@@ -72,15 +72,15 @@
 {
 	#logo
 	{
-		width: 1280px;
-		height: 357px;
+		width: 850px;
+		height: 257px;
 		display: block;
 		margin: 0px auto;
 	}
 
 	#tagline{
 		font-style: italic;
-		font-size: 90px;
+		font-size: 30px;
 		font-family: Verdana;
 		text-align: center;
 		color: white;
