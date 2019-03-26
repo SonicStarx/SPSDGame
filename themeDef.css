@@ -122,7 +122,8 @@
 
 	.textboxContainer
 	{
-		color:white;
+		background-color:white;
+		color:black;
 		font-family: Verdana;
 		text-align: center;
 		width: 67%;
