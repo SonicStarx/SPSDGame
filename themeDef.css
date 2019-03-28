@@ -1,13 +1,37 @@
-@media(min-width:768px)
+@media(min-width:300px)
 {
 
+}
+
+@media(min-width:480px)
+{
+	#textboxContainer
+	{
+		color: white;
+		position: relative;
+		margin: 80px;
+		overflow: hidden;
+		height: 100%;
+	}
+}
+
+@media(min-width:768px)
+{
+	#textboxContainer
+	{
+		color: white;
+		position: relative;
+		margin: 80px;
+		overflow: hidden;
+		height: 100%;
+	}
 }
 
 @media(min-width:992px)
 {
 	#logo
 	{
-		width: 850px;
+		width: 700px;
 		height: 257px;
 		display: block;
 		margin: 0px auto;
@@ -29,10 +53,28 @@
 	#carousel{
 		margin-left: 250px;
 		margin-right: 250px;
-		width: 50%;
+		width: 80%;
 		height: 100%;
 		position:relative;
 
+	}
+
+	.carousel-item{
+		height: 700px;
+	}
+
+	#carousel img{
+		height: 700px;
+	}
+
+	.carousel-control-prev{
+		left: 15%;
+		margin-left: 15%;
+	}
+
+	.carousel-control-next{
+		right: 15%;
+		margin-right: 15%;
 	}
 
 	body{
@@ -44,7 +86,7 @@
 
 	#textboxContainer
 	{
-		background-color: white;
+		color: white;
 		position: relative;
 		margin: 80px;
 		overflow: hidden;
@@ -70,6 +112,16 @@
 
 @media(min-width:1200px)
 {
+
+	.navbar {
+		background-color:	#24123A;
+	}
+
+	.nav-link
+	{
+		color: white;
+	}
+
 	#logo
 	{
 		width: 850px;
@@ -87,20 +139,10 @@
 	}
 
 	#carousel{
-		margin-left: 250px;
-		margin-right: 250px;
-		width: auto;
+		align-items: center;
+		width: 80%;
 		height: 100%;
 		position:relative;
-
-	}
-
-	.carousel-item{
-		height: 700px;
-	}
-
-	#carousel img{
-		height: 700px;
 	}
 
 	.carousel-control-prev{
@@ -122,8 +164,7 @@
 
 	.textboxContainer
 	{
-		background-color:white;
-		color:black;
+		color: white;
 		font-family: Verdana;
 		text-align: center;
 		width: 67%;
@@ -168,9 +209,8 @@
 
 
 	.downloadSpeech{
-		background-color: white;
-		color: black;
-		font-size: 25px;
+		color: white;
+		font-size: 30px;
 		margin: 10px;
 		align-self: center;
 		max-width: 50%;
