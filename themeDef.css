@@ -122,6 +122,12 @@
 		color: white;
 	}
 
+	.nav
+	{
+  	margin-left: 450px;
+		margin-right: 450px;
+	}
+
 	#logo
 	{
 		width: 850px;
@@ -219,10 +225,10 @@
 	#gamedownload
 	{
 		font-size: 25px;
-		left: 10%;
+
 		position: relative;
 		overflow: hidden;
-		transform: translateX(+40%);
+	
 		color: white;
 		padding: 25px;
 		background-color: green;
