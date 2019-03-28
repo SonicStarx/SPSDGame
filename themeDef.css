@@ -233,4 +233,11 @@
 		bottom: 50%;
 	}
 
+	.teamContainer
+	{
+		margin-bottom: 50px;
+		padding-bottom: 50px;
+		padding-left: 3px;
+	}
+
 }
