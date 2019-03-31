@@ -110,7 +110,7 @@
 	}
 }
 
-@media(min-width:1200px)
+@media(min-width:200px)
 {
 
 	.navbar {
@@ -210,7 +210,7 @@
 
 	.downloadSpeech{
 		color: white;
-		font-size: 30px;
+		font-size: 25px;
 		margin: 10px;
 		align-self: center;
 		max-width: 50%;
