@@ -122,11 +122,7 @@
 		color: white;
 	}
 
-	.nav
-	{
-  	margin-left: 450px;
-		margin-right: 450px;
-	}
+
 
 	#logo
 	{
@@ -226,7 +222,5 @@
 		background-color: green;
 		bottom: 50%;
 	}
-
-
 
 }
